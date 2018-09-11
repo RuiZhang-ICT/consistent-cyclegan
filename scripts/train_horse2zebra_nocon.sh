@@ -1,0 +1,1 @@
+python train.py --dataroot ../datasets/cyclegan_download/horse2zebra --dataA trainA --dataB trainB --name nocon_horse2zebra --model cycle_gan --pool_size 50 --no_dropout --gpu_ids 1 --batchSize 1 --display_freq 100 --update_html_freq 200 --lambda_con 0.0 --con_threshold 0.6 --con_sample_rate 0.3 --serial_batches
